@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Smashing Magazine</title>
+    </head>
+    <body>
+        <header id="header">
+            <a href="#">
+                <img id="logo" src="assets/logo.svg" alt="Smashing Magazine Logo">
+            </a>
+            <nav id="navbar">
+                <ul id="navbar-menu">
+                    <li>Articles</li>
+                    <li>Guides</li>
+                    <li>Books</li>
+                    <li>Workshops</li>
+                    <li>Membership</li>
+                    <li>Job Board</li>
+                    <li>Newsletter</li>
+                    <li>More</li>
+                </ul>
+            </nav>
+            <form id="searchbar">
+                <img id="search-icon" src="assets/search-icon.svg" alt="Search">
+                <input id="search-input" placeholder="Search articles...">
+            </form>
+        </header>
+        <header id="subheader">
+            <nav id="subnav">
+                <ul id="subnav-menu">
+                    <li>Accessibility</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Usability</li>
+                    <li>Design</li>
+                    <li>Figma</li>
+                    <li>Wallpapers</li>
+                    <li>React</li>
+                    <li>Vue</li>
+                    <li>Round-Ups</li>
+                    <li>Web Design</li>
+                    <li>Guides</li>
+                    <li>Business</li>
+                    <li>Career</li>
+                    <li>Privacy</li>
+                    <li>Jump to all articles</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="headline-content" class="section">
+                <div id="headline-content-left">
+                    <div id="featured">
+                        <div id="featured-top">
+                            <div class="post-author-image-container">
+                                <div class="post-author-image"></div>
+                            </div>
+                            <div class="post-title">
+                                <div class="post-author">
+                                    <a href="#">Georgii Perepecho</a>
+                                    <span> wrote</span>
+                                </div>
+                                <h1>Building The Real App With React Query</h1>
+                                <div class="post-meta">
+                                    <span class="post-date">Jan 20, 2022</span>
+                                    <span>in</span>
+                                    <span class="post-categories">
+                                        <a href="#">React</a>, 
+                                        <a href="#">Apps</a>, 
+                                        <a href="#">Workflow</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="featured-middle">
+                            In this article, Georgii Perepecho explains the most common React Query features that you need to be familiar with when creating a real-life application that is stable when testing.
+                        </div>
+                        <div id="featured-bottom">
+                            <a href="#">Continue reading</a>
+                        </div>
+                    </div>
+                    <div class="headline-post">
+                        <div class="post-author-image-container">
+                            <div class="post-author-image"></div>
+                        </div>
+                        <div class="post-title">
+                            <div class="post-author">
+                                <a href="#">Cosima Mielke</a> / 
+                                <div class="post-meta">
+                                    <span class="post-date">Jan 19, 2022</span>
+                                    <span>in</span>
+                                    <span class="post-categories">
+                                        <a href="#">Smashing</a>, 
+                                        <a href="#">Workshops</a>, 
+                                        <a href="#">SmashingConf</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <h2>Upcoming Online Workshops: January – May 2022</h2>
+                        </div>
+                    </div>
+                    <div class="headline-post">
+                        <div class="post-author-image-container">
+                            <div class="post-author-image"></div>
+                        </div>
+                        <div class="post-title">
+                            <div class="post-author">
+                                <a href="#">Anton Tyschenko</a> / 
+                                <div class="post-meta">
+                                    <span class="post-date">Jan 18, 2022</span>
+                                    <span>in</span>
+                                    <span class="post-categories">
+                                        <a href="#">Freebies</a>, 
+                                        <a href="#">Icons</a>, 
+                                        <a href="#">Inspiration</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <h2>Freebie: Wayfinding Icon Sets (164 Icons, PNG, SVG, AI, EPS)</h2>
+                        </div>
+                    </div>
+                </div>
+                <aside id="headline-content-right">
+                    <div class="promo-container">
+                        <img class="promo-image" src="assets/cat-in-the-chair.svg" alt="newsletter">
+                        <div class="promo-content-container">
+                            <div class="promo-content">
+                                <button id="email-newsletter-button">Email Newsletter</button>
+                                <div class="promo-text">
+                                    With tools to help you get your work done better. Subscribe and get Vitaly’s 
+                                    <a href="#">Smart Interface Design Checklists PDF</a>
+                                     — in your inbox.
+                                </div>
+                                <form id="email-form">
+                                    <input id="email-input" placeholder="Your email">
+                                    <button id="email-submit-button">Meow!</button>
+                                </form>
+                                <div class="promo-bottom">
+                                    On <a href="#">front-end & UX</a>. Trusted by 190,000 folks.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+            <section id="explore-content" class="section">
+                <div id="explore-content-boxes">
+                    <div id="explore-content-box-1" class="explore-content-box">
+                        <h1><a href="#">Accessible Front-End Components</a></h1>
+                        <div class="explore-content-box-description">
+                            Reliable accessible UI components: :focus styles, modals, date pickers, navigation, tables, buttons, SVGs.
+                        </div>
+                        <div class="explore-content-box-button-container">
+                            <button class="explore-content-box-button">Explore Accessible Components</button>
+                        </div>
+                    </div>
+                    <div id="explore-content-box-2" class="explore-content-box">
+                        <h1><a href="#">CSS Generators & Tools</a></h1>
+                        <div class="explore-content-box-description">
+                            Useful CSS tools for animations, shadows, cubic-bezier curves, easing gradients, filters, overlays, type scales.
+                        </div>
+                        <div class="explore-content-box-button-container">
+                            <button class="explore-content-box-button">Explore CSS Generators</button>
+                        </div>
+                    </div>
+                    <div id="explore-content-box-3" class="explore-content-box">
+                        <h1><a href="#">Front-End Boilerplates & Starter Kits</a></h1>
+                        <div class="explore-content-box-description">
+                            HTML boilerplates, CSS resets, forms, dev themes, gitignore, CSS snippets, static sites, style guides.
+                        </div>
+                        <div class="explore-content-box-button-container">
+                            <button class="explore-content-box-button">Explore Front-End Boilerplates</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="more-link-container">
+                    <a href="#">SEE ALL GUIDES</a>
+                </div>
+            </section>
+            <section id="latest-posts" class="section">
+                <div id="latest-posts-sections-container">
+                    <section class="latest-posts-section">
+                        <div class="latest-post">
+                            <div class="post-author-image-container">
+                                <div class="post-author-image"></div>
+                            </div>
+                            <div class="post-title">
+                                <div class="post-author">
+                                    <a href="#">Adrian Bece</a> wrote
+                                    <h2>Modern Fluid Typography Using CSS Clamp</h2>
+                                    <div class="post-description">
+                                        We’ll explore fluid typography principles, use-cases, implementation with CSS clamp() and an interactive fluid typography calculator.
+                                    </div>
+                                    <div class="post-meta">
+                                        <span class="post-date">Jan 17, 2022</span>
+                                        <span>in</span>
+                                        <span class="post-categories">
+                                            <a href="#">CSS</a>, 
+                                            <a href="#">Accessibility</a>, 
+                                            <a href="#">Typography</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="latest-post">
+                            <div class="post-author-image-container">
+                                <div class="post-author-image"></div>
+                            </div>
+                            <div class="post-title">
+                                <div class="post-author">
+                                    <a href="#">Daniel Don</a> wrote
+                                    <h2>Building A Web Code Editor</h2>
+                                    <div class="post-description">
+                                        If you’re a developer who’s thinking about building a platform that requires a code editor in one form or another, then this article is for you. This article explains how to create a web code editor that displays the result in real time with the help of some HTML, CSS and JavaScript.
+                                    </div>
+                                    <div class="post-meta">
+                                        <span class="post-date">Jan 13, 2022</span>
+                                        <span>in</span>
+                                        <span class="post-categories">
+                                            <a href="#">React</a>, 
+                                            <a href="#">Tools</a>, 
+                                            <a href="#">JavaScript</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="latest-post">
+                            <div class="post-author-image-container">
+                                <div class="post-author-image"></div>
+                            </div>
+                            <div class="post-title">
+                                <div class="post-author">
+                                    <a href="#">Ahmad Shadeed</a> wrote
+                                    <h2>A Deep CSS Dive Into Radial And Conic Gradients</h2>
+                                    <div class="post-description">
+                                        In this article, we’ll be taking a closer look at two gradients: conic-gradient and radial-gradient. You’ll see how each one of them works in detail, what the differences and similarities are between them, how and where to use them, and some use cases for each.
+                                    </div>
+                                    <div class="post-meta">
+                                        <span class="post-date">Jan 10, 2022</span>
+                                        <span>in</span>
+                                        <span class="post-categories">
+                                            <a href="#">UI</a>, 
+                                            <a href="#">CSS</a>, 
+                                            <a href="#">Animation</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="latest-post">
+                            <div class="post-author-image-container">
+                                <div class="post-author-image"></div>
+                            </div>
+                            <div class="post-title">
+                                <div class="post-author">
+                                    <a href="#">Luis Ouriach</a> wrote
+                                    <h2>Ten Tips For Aspiring Designer Beginners (Part 1)</h2>
+                                    <div class="post-description">
+                                        In this article (the first part in a series of two), Luis Ouriach shares advice that he wishes he has when starting out in his career. These tips come from his experience as a user interface and product designer for close to ten years, and if you’re starting just now, then read on!
+                                    </div>
+                                    <div class="post-meta">
+                                        <span class="post-date">Jan 10, 2022</span>
+                                        <span>in</span>
+                                        <span class="post-categories">
+                                            <a href="#">Design</a>, 
+                                            <a href="#">Career</a>, 
+                                            <a href="#">Workflow</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="latest-posts-section">
+                        <div class="latest-post">
+                            <div class="post-author-image-container">
+                                <div class="post-author-image"></div>
+                            </div>
+                            <div class="post-title">
+                                <div class="post-author">
+                                    <a href="#">Luis Ouriach</a> wrote
+                                    <h2>Ten Tips For Aspiring Designer Beginners (Part 2)</h2>
+                                    <div class="post-description">
+                                        In Part 1, Luis Ouriach shared advice he wished he had when starting out in his career. In this second and last part of this series, Luis continues sharing tips that helped him grow and become a better designer throughout the years.
+                                    </div>
+                                    <div class="post-meta">
+                                        <span class="post-date">Jan 14, 2022</span>
+                                        <span>in</span>
+                                        <span class="post-categories">
+                                            <a href="#">Design</a>, 
+                                            <a href="#">Career</a>, 
+                                            <a href="#">Workflow</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="latest-post">
+                            <div class="post-author-image-container">
+                                <div class="post-author-image"></div>
+                            </div>
+                            <div class="post-title">
+                                <div class="post-author">
+                                    <a href="#">Kate Kalcevich</a> wrote
+                                    <h2>How To Hire For Digital Accessibility Roles</h2>
+                                    <div class="post-description">
+                                        Accessibility must be a permanent program within organizations, much like security. In this article, Kate Kalcevich shares tips on which skills and questions to keep in mind when hiring for digital accessibility roles.
+                                    </div>
+                                    <div class="post-meta">
+                                        <span class="post-date">Jan 12, 2022</span>
+                                        <span>in</span>
+                                        <span class="post-categories">
+                                            <a href="#">Accessibility</a>, 
+                                            <a href="#">User Research</a>, 
+                                            <a href="#">Teams</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="latest-post">
+                            <div class="post-author-image-container">
+                                <div class="post-author-image"></div>
+                            </div>
+                            <div class="post-title">
+                                <div class="post-author">
+                                    <a href="#">Scott Himmer</a> wrote
+                                    <h2>Changing A Tire On A Moving Car (Or How To Improve Product Roadmaps)</h2>
+                                    <div class="post-description">
+                                        Product roadmaps are often treated as a series of checkboxes. But they are more than that. In this article, Scott Himmer explains how internal partnerships, research, design systems, and regular touch bases can help make sure that your product roadmap is a successful one.
+                                    </div>
+                                    <div class="post-meta">
+                                        <span class="post-date">Jan 7, 2022</span>
+                                        <span>in</span>
+                                        <span class="post-categories">
+                                            <a href="#">Product Strategy</a>, 
+                                            <a href="#">User Experience</a>, 
+                                            <a href="#">Usability</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="latest-post">
+                            <div class="post-author-image-container">
+                                <div class="post-author-image"></div>
+                            </div>
+                            <div class="post-title">
+                                <div class="post-author">
+                                    <a href="#">Aleksandra Nagornaia</a> wrote
+                                    <h2>Composition-Based Design System In Figma</h2>
+                                    <div class="post-description">
+                                        Figma has advanced enough where it now supports some powerful concepts that can help with the flexibility and maintainability of a design system. In this article, Sasha explains why she finds the Systems Designer position so rewarding — and it’s not only because of how fast certain tools have developed to help her master challenges she faces in her work projects.
+                                    </div>
+                                    <div class="post-meta">
+                                        <span class="post-date">Jan 3, 2022</span>
+                                        <span>in</span>
+                                        <span class="post-categories">
+                                            <a href="#">Design</a>, 
+                                            <a href="#">Tools</a>, 
+                                            <a href="#">Figma</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="more-link-container">
+                    <a href="#">SEE MORE LATEST ARTICLES</a>
+                </div>
+            </section>
+            <section id="promo-links" class="section">
+                <h1>That's The Smashing Family.</h1>
+                <h2>Smashing Magazine is so much more than articles.</h2>
+                <div id="promos-container">
+                    <div id="promo-1" class="promo-container">
+                        <img class="promo-image" src="assets/cat-family-books.svg" alt="books">
+                        <div class="promo-content-container">
+                            <div class="promo-content">
+                                <h1>Smashing Books</h1>
+                                <div class="promo-text">
+                                    <strong>14 printed books</strong> and <strong>67 eBooks</strong>. Written for web developers, designers and marketeers.
+                                </div>
+                                <button class="promo-button">Jump to books</button>
+                                <div class="promo-bottom">
+                                    Free airmail shipping wordlwide. No ifs or buts.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="promo-2" class="promo-container">
+                        <img class="promo-image" src="assets/cat-family-workshops.svg" alt="workshops">
+                        <div class="promo-content-container">
+                            <div class="promo-content">
+                                <h1>Smashing Workshops</h1>
+                                <div class="promo-text">
+                                    Online workshops with experts. Broken into 2.5h-segments, with interactive, live sessions.
+                                </div>
+                                <button class="promo-button">Jump to workshops</button>
+                                <div class="promo-bottom">
+                                    2.5h live sessions, with video recordings and Q&A.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="promo-3" class="promo-container">
+                        <img class="promo-image" src="assets/cat-family-job-board.svg" alt="job board">
+                        <div class="promo-content-container">
+                            <div class="promo-content">
+                                <h1>Smashing Job Board</h1>
+                                <div class="promo-text">
+                                    Helping designers and developers find great jobs, and connect with great companies.
+                                </div>
+                                <button class="promo-button">Jump to jobs</button>
+                                <div class="promo-bottom">
+                                    Freelancers and full-time, in front-end & UX.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="promo-4" class="promo-container">
+                        <img class="promo-image" src="assets/cat-family-membership.svg" alt="membership">
+                        <div class="promo-content-container">
+                            <div class="promo-content">
+                                <h1>Smashing Membership</h1>
+                                <div class="promo-text">
+                                    A friendly community for people who design and build the web. With discounts, goodies and fancy cats.
+                                </div>
+                                <button class="promo-button">Jump to Membership</button>
+                                <div class="promo-bottom">
+                                    For just 1 coffee a month.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="promo-5" class="promo-container">
+                        <img class="promo-image" src="assets/cat-family-mailman.svg" alt="newsletter">
+                        <div class="promo-content-container">
+                            <div class="promo-content">
+                                <h1>Smashing Newsletter</h1>
+                                <div class="promo-text">
+                                    Weekly tips on front-end & UX, delivered straight to your inbox. Just practical stuff that you can use.
+                                </div>
+                                <button class="promo-button">Jump to Newsletter</button>
+                                <div class="promo-bottom">
+                                    You can unsubscribe with 1 click any time.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="online-workshops">
+                <div id="online-workshops-content">
+                    <h3>Winter – Spring 2022 • New Workshops</h3>
+                    <h1>
+                        <a href="#">Boost Your Skills Online,<br>On Front-End & Design</a>
+                    </h1>
+                    <h2>Meet <strong>Smashing Workshops</strong>, with practical, actionable insights from experts — live. With interactive exercises, slides, video recordings and a friendly Q&A.</h2>
+                    <button id="online-workshops-button">Explore all speakers and topics →</button>
+                    <img id="online-workshops-image" src="assets/online-workshops-summer.svg" alt="Online Workshops">
+                </div>
+            </section>
+            <section id="community-links" class="section">
+                <div id="person-of-the-week">
+                    <div class="post-author-image-container">
+                        <div class="post-author-image"></div>
+                    </div>
+                    <div id="person-of-the-week-content">
+                        <h4>PERSON OF THE WEEK</h4>
+                        <div id="person-of-the-week-description">
+                            Ben Frain (@benfrain) is a web developer and public speaker who specializes in CSS architecture, HTML, and everything else front-end. Currently, he’s a UI-UX Design Technical Lead at Bet365. Ben is the author of the books Responsive Web Design With HTML5 and CSS and Enduring CSS. He also publishes YouTube videos and shares his knowledge on his blog. Thank you for sharing and caring, dear Ben!
+                        </div>
+                    </div>
+                </div>
+                <div id="community-posts">
+                    <div id="community-posts-sections-container">
+                        <section class="community-posts-section">
+                            <div class="community-post">
+                                <div class="post-author-image-container">
+                                    <div class="post-author-image"></div>
+                                </div>
+                                <div class="post-title">
+                                    <div class="post-author">
+                                        <a href="#">Rik Schennink</a> wrote
+                                        <h2>Edit Photo</h2>
+                                        <div class="post-description">
+                                            <span class="post-date">Jan 20, 2022</span> — 
+                                            Rik Schennink created a <a href="#">free photo editor</a> that works right in your browser. There are no popups to close, no ads to ignore, no cookies to accept, and you won’t need an account either.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="community-post">
+                                <div class="post-author-image-container">
+                                    <div class="post-author-image"></div>
+                                </div>
+                                <div class="post-title">
+                                    <div class="post-author">
+                                        <a href="#">Eric Bailey</a> wrote
+                                        <h2>Eco-Friendly Websites</h2>
+                                        <div class="post-description">
+                                            <span class="post-date">Jan 18, 2022</span> — 
+                                            By its very nature, the web is a net-negative for the environment. But how can we make our sites less harmful? Eric Bailey <a href="#">shares some valuable tips</a>.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="community-post">
+                                <div class="post-author-image-container">
+                                    <div class="post-author-image"></div>
+                                </div>
+                                <div class="post-title">
+                                    <div class="post-author">
+                                        <a href="#">Hidde de Vries</a> wrote
+                                        <h2>Boolean Attributes In ARIA</h2>
+                                        <div class="post-description">
+                                            <span class="post-date">Jan 14, 2022</span> — 
+                                            Some attributes in ARIA are boolean(-like), resembling boolean attributes in HTML. However, there are some important differences to be aware of, <a href="#">as Hidde de Vries shows</a>.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="community-posts-section">
+                            <div class="community-post">
+                                <div class="post-author-image-container">
+                                    <div class="post-author-image"></div>
+                                </div>
+                                <div class="post-title">
+                                    <div class="post-author">
+                                        <a href="#">Vincent Will</a> wrote
+                                        <h2>CSS Speedrun</h2>
+                                        <div class="post-description">
+                                            <span class="post-date">Jan 19, 2022</span> — 
+                                            Vincent Will created a little <a href="#">web development game</a> where you have to find the correct CSS selectors for a given HTML. How long will it take you to complete the ten puzzles?
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="community-post">
+                                <div class="post-author-image-container">
+                                    <div class="post-author-image"></div>
+                                </div>
+                                <div class="post-title">
+                                    <div class="post-author">
+                                        <a href="#">Jhey Tompkins</a> wrote
+                                        <h2>Conic Gradient Image Reveal</h2>
+                                        <div class="post-description">
+                                            <span class="post-date">Jan 17, 2022</span> — 
+                                            Houdini makes it possible to animate CSS gradients. But did you know that you can combine a conic-gradient with CSS mask to create a neat image reveal? Jhey Tompkins <a href="#">shows how it works</a>.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="community-post">
+                                <div class="post-author-image-container">
+                                    <div class="post-author-image"></div>
+                                </div>
+                                <div class="post-title">
+                                    <div class="post-author">
+                                        <a href="#">Bramus Van Damme</a> wrote
+                                        <h2>CSS In 2022</h2>
+                                        <div class="post-description">
+                                            <span class="post-date">Jan 13, 2022</span> — 
+                                            Which CSS language features can we expect to land in browsers in 2022? Bramus Van Damme <a href="#">summarized his personal predictions</a> based on closely monitoring the CSS Working Group and various Browser Vendor Issue Trackers.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="more-link-container">
+                    <a href="#">MORE LINKS ON TWITTER</a>
+                </div>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <div id="footer-content">
+            <h5>BROWSE ALL SMASHING MAGAZINE TOPICS</h5>
+            <ul id="footer-links">
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Android</a></li>
+                <li><a href="#">Animation</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Design Patterns</a></li>
+                <li><a href="#">Design Systems</a></li>
+                <li><a href="#">E-Commerce</a></li>
+                <li><a href="#">Freebies</a></li>
+                <li><a href="#">Graphics</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Illustrator</a></li>
+                <li><a href="#">Inspiration</a></li>
+                <li><a href="#">iOS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Pattern Libraries</a></li>
+                <li><a href="#">Performance</a></li>
+                <li><a href="#">Photoshop</a></li>
+                <li><a href="#">Plugins</a></li>
+                <li><a href="#">React</a></li>
+                <li><a href="#">Responsive Design</a></li>
+                <li><a href="#">Service Workers</a></li>
+                <li><a href="#">Sketch</a></li>
+                <li><a href="#">Typography</a></li>
+                <li><a href="#">UI</a></li>
+                <li><a href="#">Usability</a></li>
+                <li><a href="#">User Experience</a></li>
+                <li><a href="#">Wallpapers</a></li>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">WordPress</a></li>
+                <li><a href="#">Workflow</a></li>
+            </ul>
+            <div id="footer-info">
+                With a commitment to quality content for the design community.<br>
+                Founded by Vitaly Friedman and Sven Lennartz. 2006–2022.<br>
+                Smashing is proudly running on <a href="#">Netlify</a>.<br>
+                Fonts by <a href="#">Latinotype</a>.
+            </div>
+            <ul class="footer-bottom-links">
+                <li><a href="#">Write for us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">About us (Impressum)</a></li>
+            </ul>
+            <ul class="footer-bottom-links">
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Membership login</a></li>
+                <li><a href="#">Delivery times</a></li>
+                <li><a href="#">Advertise</a></li>
+            </ul>
+        </div>
+    </footer>
+</html>
